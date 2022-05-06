@@ -1,0 +1,114 @@
+.slogan__container {
+    background-color: #fff;
+    margin: 64px auto;
+    max-width: 1120px;
+    box-shadow: 0px 2px 8px rgba(26, 24, 30, 0.06);
+    border-radius: 8px;
+
+}
+
+.slogan__childcontainer {
+    max-width: 736px;
+    margin: auto;
+    padding: 64px 0;
+}
+
+.slogan__title {
+    font-family: 'Gala_SemiBold';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    margin: 0 0 16px;
+    color: #1a181e;
+}
+
+.slogan__desc {
+    font-size: 20px;
+    line-height: 28px;
+    color: #4d4d4d;
+    margin: 0;
+    margin-bottom: 48px;
+}
+
+.slogan__form>* {
+    display: block;
+}
+
+.slogan__inputlabel {
+    font-family: "Gala_Medium";
+    font-size: 16px;
+    line-height: 24px;
+    color: #4d4d4d;
+    margin: 16px 0;
+}
+
+.slogan__inputcontainer {
+    position: relative;
+    width: 352px;
+}
+
+.slogan__inputbox {
+    width: inherit;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-family: "Gala_Regular";
+    outline: none;
+}
+
+.slogan__inputbox:focus {
+    border: 2.5px solid#146eb4;
+}
+
+.slogan__cross>span {
+    width: 20px;
+    display: block;
+    color: #4d4d4d;
+    background-color: #4d4d4d;
+    height: 2px;
+    border-radius: 1px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 10px;
+}
+
+.slogan__cross{
+    cursor: pointer;
+}
+
+.slogan__cross span:nth-of-type(1){
+    transform: rotate(45deg);
+}
+
+.slogan__cross span:nth-of-type(2){
+    transform: rotate(-45deg);
+}
+
+.slogan__submit{
+    width: 250px;
+    height: 50px;
+    background: #146eb4;
+    border-radius: 4px;
+    margin-top: 48px;
+    font-family: "Gala_Medium";
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.slogan__submitActive{
+    cursor: pointer;
+}
+
+.slogan__submitMuted{
+    cursor: not-allowed;
+    opacity: 0.6;
+}
