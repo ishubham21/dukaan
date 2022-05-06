@@ -1,18 +1,20 @@
-import style from './Home.module.css'
-import Navbar from '../components/Navbar/Navbar';
-import Background from '../components/Background/Background';
-import SloganMaker from '../components/SloganMaker/SloganMaker';
+import style from "./Home.module.css";
+import Navbar from "../components/Navbar/Navbar";
+import SloganMaker from "../components/SloganMaker/SloganMaker";
+import Tutorial from "../components/Tutorial/Tutorial";
 
 const Home = () => {
-    return (<>
-        <div className={style.wrapper}>
-            <Background />
-            <div className={style.home__content}>
+    return (
+        <>
+            <div className={style.home__wrapper}>
                 <Navbar />
-                <SloganMaker />
+                <div className={style.home__content}>
+                    <SloganMaker />
+                    <Tutorial />
+                </div>
             </div>
-        </div>
-    </>)
-}
+        </>
+    );
+};
 
 export default Home;

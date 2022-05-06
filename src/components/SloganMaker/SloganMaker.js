@@ -21,6 +21,11 @@ const SloganMaker = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setDisplayResultBox(true);
+        window.scroll({
+            top: 100,
+            left: 100,
+            behavior: "smooth",
+        });
     };
 
     //preventing default actions on form submit

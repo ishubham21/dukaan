@@ -1,16 +1,16 @@
 @font-face {
-    font-family: 'Gala_Regular';
-    src: url('./assets/fonts/galanogrotesque-regular.otf');
+    font-family: "Gala_Regular";
+    src: url("./assets/fonts/galanogrotesque-regular.otf");
 }
 
 @font-face {
-    font-family: 'Gala_Medium';
-    src: url('./assets/fonts/galanogrotesque-medium.otf');
+    font-family: "Gala_Medium";
+    src: url("./assets/fonts/galanogrotesque-medium.otf");
 }
 
 @font-face {
-    font-family: 'Gala_SemiBold';
-    src: url('./assets/fonts/galanogrotesque-semibold.otf');
+    font-family: "Gala_SemiBold";
+    src: url("./assets/fonts/galanogrotesque-semibold.otf");
 }
 
 * {
@@ -21,11 +21,11 @@
 
 html,
 body {
-    font-family: 'Gala_Regular';
+    font-family: "Gala_Regular";
     overflow-x: hidden;
 }
 
-a{
+a {
     color: #000;
     text-decoration: none;
 }
