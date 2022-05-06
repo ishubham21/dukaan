@@ -30,20 +30,21 @@
     border: none;
     margin: auto;
     display: block;
-    width: 56px;
+    width: 65px;
     height: auto;
 }
 
 .tutorial__title {
     margin-top: 36px;
     font-size: 20px;
-    font-family: 'Gala_Medium';
+    font-family: "Gala_Medium";
     line-height: 28px;
     text-align: center;
     color: #1a181e;
 }
 
-.tutorial__desc{
+.tutorial__desc {
+    margin-top: 8px;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
