@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar/Navbar";
 import SloganMaker from "../components/SloganMaker/SloganMaker";
 import Tutorial from "../components/Tutorial/Tutorial";
 import Product from "../components/Products/Products";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
                     <SloganMaker />
                     <Tutorial />
                     <Product />
+                    <Footer />
                 </div>
             </div>
         </>

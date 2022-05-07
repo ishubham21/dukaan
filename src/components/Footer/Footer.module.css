@@ -1,0 +1,77 @@
+.footer__container {
+    color: #fff;
+    background-color: #1a181e;
+    min-height: 283px;
+}
+
+.footer__upper,
+.footer__lower {
+    max-width: 1120px;
+    margin: auto;
+    display: flex;
+    font-family: "Gala_Regular";
+    font-weight: 400;
+}
+
+.footer__upper {
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 64px 0 40px;
+}
+
+.footer__logo{
+    flex-grow: 1;
+}
+
+.footer__upper a{
+    color: #fff!important;
+}
+
+.footer__lower {
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    padding: 24px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer__lower p {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.footer__lower > div {
+    display: flex;
+}
+
+.footer__lower > div > img {
+    max-width: 100%;
+}
+
+.footer__linkcontainer {
+    color: #fff;
+    display: flex;
+}
+
+.footer__subcontainer{
+    margin-left: 102px;
+}
+
+.footer__subcontainer a{
+    display: block;
+    margin-bottom: 16px;
+}
+
+.footer__container a:last-child{
+    margin-bottom: 0;
+}
+
+.footer__jobspan{
+    background-color: #fff;
+    color: #1a181e;
+    width: 12px;
+    height: 16px;
+    border-radius: 50%;
+    padding: 1.5px 7px;
+}
