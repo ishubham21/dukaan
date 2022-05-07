@@ -1,9 +1,7 @@
 # Dukaan
-
 This application is created using React alongside Webpack as bundling tool and babel as the transpiler. 
 
 ## Features 
-
 * Use of Webpack & Babel to boost development & production build times
 * Obsfucated classNames using Webpack - this makes use of a source map to link the corresponding classes and thus, reduce the bundle size by a great margin. 
 * Used `source-map` & `inline-source-maps` for facilitating efficient debugging on development and production environments respectively. 
