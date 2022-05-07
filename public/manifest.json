@@ -12,12 +12,5 @@
     "theme_color": "#000000",
     "background_color": "#ffffff",
     "orientation": "portrait-primary",
-    "categories": [],
-    "related_applications": [
-        {
-          "platform": "webapp",
-          "url": "https://dukaan-two.vercel.app"
-        }
-      ],
-      "prefer_related_applications": true
+    "categories": []
 }
