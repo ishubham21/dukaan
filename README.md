@@ -7,3 +7,29 @@ This application is created using React alongside Webpack as bundling tool and b
 * Used `source-map` & `inline-source-maps` for facilitating efficient debugging on development and production environments respectively. 
 * Splitted larger JS bundle files into multiple chunks to enhance production build performances. 
 * Made use of CSS minifiers and Terser plugin to uglify CSS & JavaScript to reduce the overall bundle size. 
+
+## Installing 
+
+1. Clone the repository - 
+```
+git clone https://github.com/ishubham21/dukaan 
+```
+
+2. Install all the dependencies -
+```
+npm install
+```
+
+or
+
+```
+yarn
+```
+
+3. Start the development server - 
+
+```
+npm run start
+```
+
+4. You are good to go! You can now access the application on the PORT 3001 - [http://localhost:3001](http://localhost:3001)
