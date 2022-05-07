@@ -10,12 +10,12 @@ This application is created using React alongside Webpack as bundling tool and b
 
 ## Installing 
 
-1. Clone the repository - 
+1. **Clone the repository** - 
 ```
 git clone https://github.com/ishubham21/dukaan 
 ```
 
-2. Install all the dependencies -
+2. **Install all the dependencies** -
 ```
 npm install
 ```
@@ -26,10 +26,10 @@ or
 yarn
 ```
 
-3. Start the development server - 
+3. **Start the development server** - 
 
 ```
 npm run start
 ```
 
-4. You are good to go! You can now access the application on the PORT 3001 - [http://localhost:3001](http://localhost:3001)
+4. **You are good to go! You can now access the application on the `PORT 3001`** - [http://localhost:3001](http://localhost:3001)
