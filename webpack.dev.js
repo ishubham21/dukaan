@@ -1,7 +1,7 @@
 const { merge } = require('webpack-merge')
 const common = require('./webpack.common')
 
-let PORT = 3000;    //initial PORT value
+let PORT = 3001;    //initial PORT value
 const net = require('net')
 //function to check if port is available and update if busy
 /**
