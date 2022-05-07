@@ -1,5 +1,5 @@
 # Dukaan
-This application is created using React alongside Webpack as bundling tool and babel as the transpiler. 
+This application is created using React alongside Webpack as bundling tool and babel as the transpiler. Access the application from [https://dukaan-two.vercel.app/](https://dukaan-two.vercel.app/)
 
 ## Features 
 * Use of Webpack & Babel to boost development & production build times
